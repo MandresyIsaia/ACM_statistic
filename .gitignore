@@ -26,6 +26,7 @@ ACM_statistic_backend/api/api/Settings/
 ACM_statistic_backend/api/api/api.http
 ACM_statistic_backend/api/api/appsettings.json
 ACM_statistic_backend/api/api/obj/
+acm_statistic_backend/api/api/donnees
 
 # Rider / Visual Studio
 .vs/
