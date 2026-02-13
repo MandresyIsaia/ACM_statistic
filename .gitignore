@@ -1,0 +1,77 @@
+#####################################################
+# GLOBAL
+#####################################################
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+#####################################################
+# .NET BACKEND (ACM_statistic_backend)
+#####################################################
+
+# Build results
+ACM_statistic_backend/api/api/bin/
+ACM_statistic_backend/api/api/Properties/
+ACM_statistic_backend/api/api/Settings/
+ACM_statistic_backend/api/api/api.http
+ACM_statistic_backend/api/api/appsettings.json
+ACM_statistic_backend/api/api/obj/
+
+# Rider / Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Publish folder
+ACM_statistic_backend/publish/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+#####################################################
+# REACT FRONTEND (ACM_statistic_frontend)
+#####################################################
+
+# Node modules
+ACM_statistic_frontend/node_modules/
+
+# Build folder
+ACM_statistic_frontend/build/
+ACM_statistic_frontend/dist/
+
+# Cache
+ACM_statistic_frontend/Interface Tableau de Bord Analytique Aérien/.cache/
+
+# Coverage
+ACM_statistic_frontend/Interface Tableau de Bord Analytique Aérien/coverage/
+ACM_statistic_frontend/Interface Tableau de Bord Analytique Aérien/build
+ACM_statistic_frontend/Interface Tableau de Bord Analytique Aérien/node_modules
+ACM_statistic_frontend/Interface Tableau de Bord Analytique Aérien/vite-env.d.ts
+ACM_statistic_frontend/Interface Tableau de Bord Analytique Aérien/vite.config.ts
+
+# Vite
+ACM_statistic_frontend/Interface Tableau de Bord Analytique Aérien/.vite/
+
+#####################################################
+# IDE
+#####################################################
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
